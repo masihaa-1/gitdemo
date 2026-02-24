@@ -42,3 +42,23 @@ This program:
 File: task2.2_loop.py
 
 ---
+
+## Task 3.1: Calculate Factorial Using Function
+This program:
+- Defines function named factorial that takes number  as argument.
+- calculate its factorial using a loop or recursion.
+- calls function with a sample number and prints the output.
+
+File: task 3.1_factorial.py
+
+---
+
+## Task 3.2: Math Module for calculations
+This program:
+- Asks user for number as input.
+- Uses math module to calculate 
+- Display the calculation results.
+
+File: task3.2_mathmod.py
+
+---

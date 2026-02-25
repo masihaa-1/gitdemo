@@ -44,48 +44,63 @@ File: task2.2_loop.py
 ---
 
 ## Task 3.1: Calculate Factorial Using Function
-This program:
-- Defines function named factorial that takes number  as argument.
-- calculate its factorial using a loop or recursion.
-- calls function with a sample number and prints the output.
+Task 1:
+- Implemented a factorial function using recursion
+- Added error handling for negative numbers
+- Included input validation for non-integer values
 
 File: task 3.1_factorial.py
 
 ---
 
 ## Task 3.2: Math Module for calculations
-This program:
-- Asks user for number as input.
-- Uses math module to calculate 
-- Display the calculation results.
+This task uses Python’s built-in math module to perform common mathematical operations.
+- Operations Implemented
+- Square root calculation
+- Power calculation
+- Factorial using math.factorial()
+- Ceiling and floor values
+- Value of Pi (math.pi)
+
+Concepts Used
+- Importing built-in modules
+- Calling module functions
+- Mathematical computations
 
 File: task3.2_mathmod.py
 
 ---
 
-## Task 1: Read a File and Handle Errors
+# Files, Exceptions and Errors in python
 
-Problem Statement: Write a Python program that:
-
-1. Opens and reads a text file named sample.txt.
-
-2. Prints its content line by line.
-
-3. Handles errors gracefully if the file does not exist.
+## Task 4.1 – Read File
+- Reads the contents of a text file (sample.txt)
+- Displays the file content on the console
+- Handles file-related errors
 
 File: task4.1_file.py
 
 ---
 
-## Task 2: Write and Append Data to a File
+## Task 4.2 – Append Data
+- Takes user input
+- Appends the input to an existing text file (sample.txt)
+- Handles runtime exceptions.
+How to Run
+- Requirements
+- Python 3 installed on your system
 
-Problem Statement: Write a Python program that:
+Steps
+- Open terminal or command prompt
+- Navigate to the project folder
 
-1. Takes user input and writes it to a file named output.txt.
+Run Task 4.1:
 
-2. Appends additional data to the same file.
+python task4.1_file.py
 
-3. Reads and displays the final content of the file.
+Run Task 4.2:
+
+python task4.2_appenddata.py
 
 File: task4.2_appenddata.py
 

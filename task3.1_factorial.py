@@ -1,23 +1,16 @@
-# Function to calculate factorial using a loop
+
 def factorial(num):
     """
-    This function takes a number as an argument
-    and returns its factorial.
+    This function calculates the factorial of a number using recursion.
     """
-    result = 1
-
-    # Loop from 1 to num (inclusive)
-    for i in range(1, num + 1):
-        result = result * i
-
-    return result
-
-
-# Taking input from the user
-number = int(input("Enter a number: "))
-
-# Calling the factorial function
-fact = factorial(number)
-
-# Printing the result
-print("Factorial of", number, "is:", fact)
+    if num < 0:
+        return "Factorial is not defined for negative numbers."
+    if num == 0 or num == 1:
+        return 1
+    return num * factorial(num - 1)
+try:
+    number = int(input("Enter a number: "))
+    result = factorial(number)
+    print("Factorial of", number, "is:", result)
+except ValueError:
+    print("Please enter a valid integer.")
